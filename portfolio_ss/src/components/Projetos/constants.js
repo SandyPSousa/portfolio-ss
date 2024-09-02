@@ -10,7 +10,7 @@ export const projetos = [
     id: 1,
     title: "PROJETO #1: Gataria",
     description:
-      "A Gataria é uma aplicação web desenvolvida para facilitar a adoção responsável de gatos, oferecendo uma experiência amigável e informativa para os usuários.",
+      "Gataria é um projeto fictício criado para demonstrar habilidades em desenvolvimento frontend. A aplicação consiste em uma plataforma de adoção de gatos, com foco em usabilidade e design responsivo. ",
     link: "https://linkprojeto1.com",
   },
   {
