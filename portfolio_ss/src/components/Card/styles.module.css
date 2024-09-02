@@ -23,4 +23,5 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
+  color: #c0b29d;
 }

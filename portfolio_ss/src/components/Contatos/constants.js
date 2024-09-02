@@ -13,16 +13,16 @@ export const contatos = [
   {
     id: 2,
     name: "LinkedIn",
-    url: "www.linkedin.com/in/sandy-p-sousa",
+    url: "https://www.linkedin.com/in/sandy-p-sousa/",
   },
   {
     id: 3,
-    name: "Twitter",
-    url: "https://twitter.com/user",
+    name: "Blue Sky",
+    url: "https://bsky.app/",
   },
   {
     id: 4,
     name: "Instagram",
-    url: "https://instagram.com/user",
+    url: "https://www.instagram.com/",
   },
 ];
