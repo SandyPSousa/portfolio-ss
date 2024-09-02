@@ -8,8 +8,9 @@
 export const projetos = [
   {
     id: 1,
-    title: "PROJETO #1",
-    description: "Descrição detalhada do Projeto #1.",
+    title: "PROJETO #1: Gataria",
+    description:
+      "A Gataria é uma aplicação web desenvolvida para facilitar a adoção responsável de gatos, oferecendo uma experiência amigável e informativa para os usuários.",
     link: "https://linkprojeto1.com",
   },
   {
