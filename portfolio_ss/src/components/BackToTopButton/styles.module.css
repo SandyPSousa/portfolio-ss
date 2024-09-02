@@ -1,0 +1,48 @@
+.back_to_top_button {
+  background-color: hsl(36, 84%, 50%);
+  border-radius: 50%;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  bottom: 1.5rem;
+  left: calc(50dvw + (22.5rem / 2) - (52px + 0.5rem));
+  text-decoration: none;
+  z-index: 2;
+}
+
+.back_to_top_button > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  width: 52px;
+}
+
+@media screen and (min-width: 22.5rem) {
+  .back_to_top_button {
+    display: block;
+  }
+}
+
+@media screen and (min-width: calc(22.5rem + 52px)) {
+  .back_to_top_button {
+    display: block;
+    left: calc(50dvw + (22.5rem / 2) - (52px / 3));
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  .back_to_top_button {
+    left: calc(50dvw + (40rem / 2) - (52px + 0.5rem));
+  }
+}
+
+@media screen and (min-width: calc(40rem + 52px)) {
+  .back_to_top_button {
+    left: calc(50dvw + (40rem / 2) - (52px / 3));
+  }
+}
