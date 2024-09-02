@@ -9,10 +9,10 @@ export default function Footer() {
       <div className={styles.footer_container}>
         <form className={styles.footer_form}>
           <label>
-            Nome: <input type="text" placeholder="Alan Turing" />
+            Nome: <input type="text" placeholder="Seu nome:" />
           </label>
           <label>
-            E-mail: <input type="email" placeholder="alan-turing@email.com" />
+            E-mail: <input type="email" placeholder="nome@email.com" />
           </label>
           <label>
             Mensagem:
